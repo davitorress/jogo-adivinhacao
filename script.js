@@ -38,6 +38,7 @@ function handleResetClick() {
 function handleKeypressEnter(event) {
 	if (event.key == "Enter" && screen1.classList.contains("hide")) {
 		handleResetClick();
+		location.reload();
 	}
 }
 
